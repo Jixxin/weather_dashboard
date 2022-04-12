@@ -34,7 +34,7 @@ var searchButtonEl = $('#searchButton')
 var currentTime = moment().format('(M/D/YYYY)')
 
 function searchWeather() {
-    var apiUrl = 'http://api.openweathermap.org/data/2.5/weather?q=' + citySearch.val() + ',us&APPID=2de75dffb1639889919b9fefd2abcc87'
+    var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + citySearch.val() + ',us&APPID=2de75dffb1639889919b9fefd2abcc87'
 
     fetch(apiUrl, {
 
@@ -120,7 +120,7 @@ function searchWeather() {
 
 }
 function austinWeather() {
-    var apiUrl = 'http://api.openweathermap.org/data/2.5/weather?q=austin,us&APPID=2de75dffb1639889919b9fefd2abcc87'
+    var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=austin,us&APPID=2de75dffb1639889919b9fefd2abcc87'
 
     fetch(apiUrl, {
 
@@ -203,7 +203,7 @@ function austinWeather() {
 
 }
 function chicagoWeather() {
-    var apiUrl = 'http://api.openweathermap.org/data/2.5/weather?q=chicago,us&APPID=2de75dffb1639889919b9fefd2abcc87'
+    var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=chicago,us&APPID=2de75dffb1639889919b9fefd2abcc87'
 
     fetch(apiUrl, {
 
@@ -286,7 +286,7 @@ function chicagoWeather() {
 
 }
 function newyorkWeather() {
-    var apiUrl = 'http://api.openweathermap.org/data/2.5/weather?q=new%20york,us&APPID=2de75dffb1639889919b9fefd2abcc87'
+    var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=new%20york,us&APPID=2de75dffb1639889919b9fefd2abcc87'
 
     fetch(apiUrl, {
 
@@ -369,7 +369,7 @@ function newyorkWeather() {
 
 }
 function orlandoWeather() {
-    var apiUrl = 'http://api.openweathermap.org/data/2.5/weather?q=orlando,us&APPID=2de75dffb1639889919b9fefd2abcc87'
+    var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=orlando,us&APPID=2de75dffb1639889919b9fefd2abcc87'
 
     fetch(apiUrl, {
 
@@ -452,7 +452,7 @@ function orlandoWeather() {
 
 }
 function sanfranWeather() {
-    var apiUrl = 'http://api.openweathermap.org/data/2.5/weather?q=san%20francisco,us&APPID=2de75dffb1639889919b9fefd2abcc87'
+    var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=san%20francisco,us&APPID=2de75dffb1639889919b9fefd2abcc87'
 
     fetch(apiUrl, {
 
@@ -536,7 +536,7 @@ function sanfranWeather() {
 
 }
 function seattleWeather() {
-    var apiUrl = 'http://api.openweathermap.org/data/2.5/weather?q=seattle,us&APPID=2de75dffb1639889919b9fefd2abcc87'
+    var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=seattle,us&APPID=2de75dffb1639889919b9fefd2abcc87'
 
     fetch(apiUrl, {
 
@@ -621,7 +621,7 @@ function seattleWeather() {
 
 }
 function denverWeather() {
-    var apiUrl = 'http://api.openweathermap.org/data/2.5/weather?q=denver,us&APPID=2de75dffb1639889919b9fefd2abcc87'
+    var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=denver,us&APPID=2de75dffb1639889919b9fefd2abcc87'
 
     fetch(apiUrl, {
 
@@ -705,7 +705,7 @@ function denverWeather() {
 
 }
 function atlantaWeather() {
-    var apiUrl = 'http://api.openweathermap.org/data/2.5/weather?q=atlanta,us&APPID=2de75dffb1639889919b9fefd2abcc87'
+    var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=atlanta,us&APPID=2de75dffb1639889919b9fefd2abcc87'
 
     fetch(apiUrl, {
 
